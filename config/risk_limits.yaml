@@ -1,0 +1,8 @@
+# RELLENAR POR JOSE con valores reales. Los agentes nunca deben inventarlos.
+daily_loss_limit: null
+accounts:
+  PA11: { drawdown_floor: null }
+  PA12: { drawdown_floor: null }
+  PA13: { drawdown_floor: null }
+  PA14: { drawdown_floor: null }
+  PA15: { drawdown_floor: null }

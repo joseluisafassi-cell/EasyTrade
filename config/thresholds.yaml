@@ -1,0 +1,4 @@
+# Umbrales del Revisor para estrategias. Ajusta a tu criterio.
+min_profit_factor: null
+max_drawdown_pct: null
+min_closed_trades: null
