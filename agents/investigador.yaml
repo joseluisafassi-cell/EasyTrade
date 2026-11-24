@@ -3,6 +3,7 @@ name: Andy
 role: Investigador
 department: Análisis
 desk: { x: 8, y: 5 }
+avatar: { hair: curly, hair_color: '#5a3a22', torso: '#0f9aa8', legs: '#27304a', accessory: none }
 enabled: true
 reports_to: jefe
 instructions: |

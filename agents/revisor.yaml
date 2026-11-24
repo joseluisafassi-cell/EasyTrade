@@ -3,6 +3,7 @@ name: Dwight
 role: Revisor / Comité
 department: Comité
 desk: { x: 5, y: 5 }
+avatar: { hair: short, hair_color: '#b08a4a', torso: '#e8eaee', legs: '#3a3f4a', accessory: tie }
 enabled: true
 reports_to: jefe
 instructions: |

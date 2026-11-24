@@ -3,6 +3,7 @@ name: Kevin
 role: Analista de Cuentas
 department: Análisis
 desk: { x: 2, y: 5 }
+avatar: { hair: none, hair_color: '#4a2f1b', torso: '#6b7280', legs: '#27304a', accessory: cap }
 enabled: true
 reports_to: jefe
 instructions: |

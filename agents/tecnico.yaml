@@ -3,6 +3,7 @@ name: Alba
 role: Analista Técnico
 department: Técnico
 desk: { x: 2, y: 3 }
+avatar: { hair: bob, hair_color: '#1a1a1a', torso: '#2f6fed', legs: '#27304a', accessory: glasses }
 enabled: true
 reports_to: jefe
 instructions: |

@@ -3,6 +3,7 @@ name: Sofía
 role: Analista Macro
 department: Macro
 desk: { x: 6, y: 3 }
+avatar: { hair: ponytail, hair_color: '#e3b341', torso: '#1f9d55', legs: '#27304a', accessory: headset }
 enabled: true
 reports_to: jefe
 instructions: |

@@ -3,6 +3,7 @@ name: Daniel
 role: Quant / Backtesting
 department: Quant
 desk: { x: 8, y: 3 }
+avatar: { hair: short, hair_color: '#1a1a1a', torso: '#7a3fd1', legs: '#1b2236', accessory: glasses }
 enabled: true
 reports_to: jefe
 instructions: |

@@ -10,7 +10,7 @@ Windows al final y opcional.
 
 ## Modelo central
 ```
-Agent (YAML)  : id, name, role, department, desk{x,y}, enabled, reports_to,
+Agent (YAML)  : id, name, role, department, desk{x,y}, avatar{hair,hair_color,torso,legs,accessory}, enabled, reports_to,
                 instructions, tools[], schedule
 Task          : id, title, assigned_to, status (pendiente|en_curso|en_revision|
                 esperando_aprobacion|aprobada|rechazada|bloqueada), input, output, evidence[]
@@ -39,7 +39,7 @@ Nuevas herramientas = una función registrada en `packages/core/tools/` + su nom
    leer datos de mercado de CSV importado. Ningún acceso a brokers.
 5. **Aprobaciones**: toda salida que implique publicar/gastar/exportar pasa por la bandeja; el botón
    Aprobar/Rechazar queda en el log.
-6. **UI**: oficina isométrica SVG (escritorios por departamento según `desk{x,y}`), personaje por
+6. **UI**: los agentes son **minifiguras LEGO** (generador listo en `assets/minifig/minifig.js`, portarlo a TS en `packages/core`; el avatar sale del YAML y el estado cambia expresión y luz del pecho). Oficina isométrica SVG (escritorios por departamento según `desk{x,y}`), personaje por
    agente con estado (inactivo/trabajando/esperando/bloqueado), tarjeta de agente (nombre, rol, estado,
    enlace "Ver evidencia"), chat con el Jefe, panel de tareas, panel de log, bandeja de aprobaciones,
    panel "Editar empleado", Settings. Barra superior: nº de agentes, tareas abiertas, aprobaciones pendientes.

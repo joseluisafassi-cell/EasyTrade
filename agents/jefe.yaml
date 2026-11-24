@@ -3,6 +3,7 @@ name: Michael
 role: Jefe / Orquestador
 department: Dirección
 desk: { x: 5, y: 1 }
+avatar: { hair: short, hair_color: '#5a3a22', torso: '#1f2a44', legs: '#1b2236', accessory: tie }
 enabled: true
 reports_to: human
 instructions: |

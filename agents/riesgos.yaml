@@ -3,6 +3,7 @@ name: Inés
 role: Gestora de Riesgos
 department: Riesgos
 desk: { x: 4, y: 3 }
+avatar: { hair: long, hair_color: '#8a3b1c', torso: '#d6242b', legs: '#27304a', accessory: hardhat }
 enabled: true
 reports_to: jefe
 instructions: |
